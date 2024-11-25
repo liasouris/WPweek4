@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+</head>
+<body>
+    <h1>Todo App</h1>
+    <form id="todoForm">
+        <input type="text" id="userInput" placeholder="Enter your name" required />
+        <input type="text" id="todoInput" placeholder="Enter a todo" required />
+        <button type="submit" id="submit-data">Add Todo</button>
+    </form>
+    <p id="response-message"></p>
+
+    <form id="searchForm">
+        <input type="text" id="searchInput" placeholder="Search by name" required />
+        <button type="submit" id="search">Search</button>
+    </form>
+    <p id="search-message"></p>
+    <ul id="todos-list"></ul>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
